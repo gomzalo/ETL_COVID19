@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Fase2Semi2G21</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>wqPmPrD5vBVN/IiyHcuj/PO8XoE=21/06/2021 11:47:34 p. m.21/06/2021 11:31:41 p. m.</TimeStamp>
+        <ID>
+          <String>Dbss2g21</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>fvMsmEuFZ4G3prOtcOQR4mxrzU4=21/06/2021 11:32:27 p. m.21/06/2021 11:32:27 p. m.</TimeStamp>
+        <ID>
+          <String>Vista</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sRaTOXcOZRhcj1NXSMB7fMtV5xc=21/06/2021 11:36:40 p. m.21/06/2021 11:33:29 p. m.</TimeStamp>
+        <ID>
+          <String>Fecha</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IE4O4u82NK8Lyk9Uk3krqFx3FPI=21/06/2021 11:37:45 p. m.21/06/2021 11:33:29 p. m.</TimeStamp>
+        <ID>
+          <String>Hospital</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RpEJYi9I9POhcCDYkWPo+cPtg4E=21/06/2021 11:38:09 p. m.21/06/2021 11:33:29 p. m.</TimeStamp>
+        <ID>
+          <String>Departamento</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6Ll28baq1DxJXP1hiw0Xxfm2WAE=21/06/2021 11:38:39 p. m.21/06/2021 11:33:29 p. m.</TimeStamp>
+        <ID>
+          <String>Paciente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>T7suSMLrNC28+IBDdRk12mTJIDw=21/06/2021 11:39:00 p. m.21/06/2021 11:33:29 p. m.</TimeStamp>
+        <ID>
+          <String>Doctor</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ly4R1SlRzMNDdiWRf6L2ozhcuJ8=21/06/2021 11:39:30 p. m.21/06/2021 11:33:29 p. m.</TimeStamp>
+        <ID>
+          <String>Region</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>y/jFPMHNpHqR9jLgNvnfIt7nH5o=21/06/2021 11:39:30 p. m.21/06/2021 11:33:29 p. m.uhk4yjzPzidtZ2nWwasmV+4BxSc=21/06/2021 11:33:29 p. m.21/06/2021 11:33:29 p. m.</TimeStamp>
+        <ID>
+          <String>Vista</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>WYvXDassdetFTdgC5bZNsWKV2Rk=21/06/2021 11:01:29 p. m.21/06/2021 11:01:29 p. m.</TimeStamp>
+      <ID>
+        <String>Fase2Semi2G21</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-06-22T05:47:44.226667Z</LastDeployed>
+</DeploymentSnapshot>

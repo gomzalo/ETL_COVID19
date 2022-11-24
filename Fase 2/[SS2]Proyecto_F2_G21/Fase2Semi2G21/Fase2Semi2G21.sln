@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Fase2Semi2G21", "Fase2Semi2G21\Fase2Semi2G21.dwproj", "{0C1A5801-8BD3-4084-84EE-E9C30FEE7079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C1A5801-8BD3-4084-84EE-E9C30FEE7079}.Development|Default.ActiveCfg = Development
+		{0C1A5801-8BD3-4084-84EE-E9C30FEE7079}.Development|Default.Build.0 = Development
+		{0C1A5801-8BD3-4084-84EE-E9C30FEE7079}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE6FC43C-5293-4FC1-B037-31C8F7320494}
+	EndGlobalSection
+EndGlobal
